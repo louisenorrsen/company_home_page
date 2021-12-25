@@ -139,7 +139,7 @@ main {
     box-shadow: -5px 5px 7px -3px rgba(74, 76, 75, 0.83);
 }
 
-.img-container img {
+.content-container img {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     max-height: auto;
