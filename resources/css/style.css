@@ -12,7 +12,6 @@
 html {
     font-size: 16px;
     background-color: #edd4dd;
-    max-height: 400px;
 }
 
 /* Nav */ 
@@ -118,7 +117,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    
 }
 
 .img-container{
@@ -143,7 +142,13 @@ main {
 .content-container img {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-    max-height: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .content-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }    
 }
 
 .img-container p {
