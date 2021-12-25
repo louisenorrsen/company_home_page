@@ -141,6 +141,8 @@ main {
 .img-container img {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    max-height: auto;
+    align-items: flex-start;
 }
 
 .img-container p {
