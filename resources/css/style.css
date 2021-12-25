@@ -62,7 +62,7 @@ nav li {
     background-position: center;
     background-size: 100%;
     width: 100%;
-    height: 30rem;
+    height: 20rem;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -100,8 +100,17 @@ main {
 
 #main {
     font-size: 1.5rem;
-    background-color: transparent;
     margin: 1.875rem;
+    text-align: center;
+}
+
+#main p {
+    margin-top: 5px;
+}
+
+#list-header {
+    font-size: 1.7rem;
+    font-weight: 700;
 }
 
 @media only screen and (max-width: 480px) {
@@ -148,6 +157,7 @@ main {
     .content-container {
         flex-direction: column;
         align-items: flex-start;
+        align-content: center;
     }    
 }
 
@@ -161,6 +171,7 @@ main {
     font-size: 2.875rem;
     text-align: center;
     font-family: "Adlery Pro Blockletter", sans-serif;
+    margin-top: 1.875rem;
 }
 
 #contact {
@@ -170,6 +181,7 @@ main {
 .dotted-border {
     border-top: #631c37 2px dotted;
     padding-top: 10px;
+    margin-top: 20px;
 }
 
 /* Footer */
