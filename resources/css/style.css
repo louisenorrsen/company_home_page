@@ -127,7 +127,6 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .img-container{
@@ -141,6 +140,7 @@ main {
     text-decoration: none;
     color: #631c37;
     font-size: 1.3rem;
+    justify-content: center;
 }
 
 .img-container:hover {
